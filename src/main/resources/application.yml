@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: local
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092, localhost:9093, localhost:9094
+      group-id: location-connector-events-listener-group
+
+weather:
+  api:
+    url: ${WEATHER_API_URL:https://community-open-weather-map.p.rapidapi.com}

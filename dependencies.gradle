@@ -1,0 +1,5 @@
+ext {
+    okhttpVersion = "11.8"
+    jacksonDataBindVersion = "2.13.1"
+    apacheCommonsLang3Version = "3.12.0"
+}
