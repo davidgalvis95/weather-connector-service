@@ -1,6 +1,6 @@
 package com.weather.api.weatherconnectorservice.config.kafka.consumer;
 
-import com.weather.api.weatherconnectorservice.models.Location;
+import com.weather.api.weatherconnectorservice.models.location.Location;
 import com.weather.api.weatherconnectorservice.service.LocationProcessorService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

@@ -1,4 +1,4 @@
-package com.weather.api.weatherconnectorservice.models;
+package com.weather.api.weatherconnectorservice.models.location;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

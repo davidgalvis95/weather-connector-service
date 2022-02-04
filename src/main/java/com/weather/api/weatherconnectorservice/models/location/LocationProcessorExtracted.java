@@ -1,10 +1,7 @@
-package com.weather.api.weatherconnectorservice.models;
+package com.weather.api.weatherconnectorservice.models.location;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.LinkedList;
 
 @Builder(toBuilder = true)
 @Data

@@ -1,7 +1,7 @@
 package com.weather.api.weatherconnectorservice.kafka.consumer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.weather.api.weatherconnectorservice.models.Location;
+import com.weather.api.weatherconnectorservice.models.location.Location;
 import com.weather.api.weatherconnectorservice.service.LocationProcessorService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

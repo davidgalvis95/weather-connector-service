@@ -1,8 +1,8 @@
 package com.weather.api.weatherconnectorservice.service;
 
-import com.weather.api.weatherconnectorservice.models.Location;
-import com.weather.api.weatherconnectorservice.models.LocationProcessorExtracted;
-import com.weather.api.weatherconnectorservice.models.LocationTreeType;
+import com.weather.api.weatherconnectorservice.models.location.Location;
+import com.weather.api.weatherconnectorservice.models.location.LocationProcessorExtracted;
+import com.weather.api.weatherconnectorservice.models.location.LocationTreeType;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.util.*;
